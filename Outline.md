@@ -1,30 +1,18 @@
 # 졸업프로젝트 개요
-## 아키텍처
+## AWS Architecture
 <p align="center">
   <img src="https://github.com/user-attachments/assets/51107735-5f48-4358-8f5c-9b253cc41acd" alt="시스템 아키텍처">
 </p>
 
-센서를 사용하여 대상의 정보를 서버로 전송하면, 서버는 클라이언트에게 실시간으로 해당 정보를 보여줍니다. AWS 아키텍처는 위와 같으며, 서비스들이 잘 연동되기만 하면 즉시 서비스가 가능합니다. 이번 프로젝트에서 우리의 목표는 이 AWS 아키텍처를 사용하는 것이 아니라, 직접 구현하고 편의성을 추가하는 것입니다.
+## OpenStack Architecture
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf9aa774-c2bd-46fe-8315-54b9262259f3" alt="시스템 아키텍처">
+</p>
 
-## 구현해야할 것
-### 웹 서버
-DB에서 정보를 가져와서 실시간 그래프를 그립니다.
-
-### 데이터 수신 서버
-센서로부터 데이터를 받아 가공하여 DB에 저장합니다.
-
-### DB
-센서 데이터를 저장합니다.
-
-## 구현 방법
-### 오픈스택
-프라이빗 클라우드를 구축할 수 있는 오픈소스 프로젝트입니다. Keystone, Glance, Placement, Nova, Neutron 등의 컴포넌트를 사용하여 인스턴스를 생성하고, Heat 컴포넌트를 통해 인스턴스를 효율적으로 관리할 수 있습니다. 인스턴스에 데이터베이스와 서버를 구동하고, 사용량에 따라 자동으로 확장될 수 있도록 구성할 계획입니다.
-
-## 논의할 것
-- ### AI 모델 사용 방법
-- ### 센서로 무엇을 측정할 것인가
-- ### 등등
-
+## Data Flow Diagram
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0eeccff5-ae45-423b-a506-ed861de69a85" alt="시스템 아키텍처">
+</p>
 
 
 
