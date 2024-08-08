@@ -6,7 +6,7 @@
 
 ## OpenStack Architecture
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cf9aa774-c2bd-46fe-8315-54b9262259f3" alt="시스템 아키텍처">
+  <img src="https://github.com/user-attachments/assets/c8aad1c0-ead3-474f-b66d-cc9c8505e2c6" alt="시스템 아키텍처">
 </p>
 
 ## Data Flow Diagram
