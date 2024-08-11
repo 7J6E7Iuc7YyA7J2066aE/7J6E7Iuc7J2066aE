@@ -14,6 +14,8 @@
   <img src="https://github.com/user-attachments/assets/0eeccff5-ae45-423b-a506-ed861de69a85" alt="시스템 아키텍처">
 </p>
 
-
-
+## OpenStack Network
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6d78013c-e78b-4875-8a33-ca995c8fbace" alt="시스템 아키텍처">
+</p>
 
